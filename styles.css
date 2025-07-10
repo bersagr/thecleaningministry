@@ -69,6 +69,10 @@ section {
   margin: 2rem 0;
 }
 
+ul {
+    padding-left: 20%;
+}
+
 h2 {
   color: var(--primary-color);
   margin-bottom: 1rem;
@@ -87,12 +91,13 @@ form select {
   padding: 0.5rem;
   margin-top: 0.25rem;
   border: 1px solid #ccc;
+  background-color: #51b6e8;
   border-radius: 4px;
 }
 
 form button {
   margin-top: 1rem;
-  background-color: var(--primary-color);
+  background-color: #0064b2;
   color: white;
   border: none;
   padding: 0.75rem 1.5rem;
