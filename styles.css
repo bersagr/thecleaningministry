@@ -1,10 +1,10 @@
 /* The Cleaning Ministry - Styles */
 
 :root {
-  --primary-color: #576CA8; /* true blue */
+  --primary-color: #0064b2; /* gold */
   --bg-color: #fdf8f2; /* cream/beige */
   --text-color: #333;
-  --header-bg: #cfeaff; /* light sky blue */
+  --header-bg: #fdf8f2; /* white */
 }
 
 * {
@@ -14,9 +14,14 @@
   font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
 }
 
+#slogan {
+    color: #0064b2;
+    font-size: 30px;
+}
+
 body {
   background-color: var(--bg-color);
-  color: var(--text-color);
+  color: var(--text-color); 
   line-height: 1.6;
   padding: 0 1rem;
 }
