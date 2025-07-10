@@ -16,7 +16,7 @@
 
 #slogan {
     color: #0064b2;
-    font-size: 30px;
+    font-size: 25px;
 }
 
 body {
@@ -92,7 +92,7 @@ form select {
   padding: 0.5rem;
   margin-top: 0.25rem;
   border: 1px solid #ccc;
-  background-color: #51b6e8;
+  background-color: white;
   border-radius: 4px;
 }
 
