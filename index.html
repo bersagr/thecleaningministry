@@ -1,91 +1,127 @@
 <!DOCTYPE html>
 <html lang="en">
-<head>
-  <meta charset="UTF-8" />
-  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-  <title>The Cleaning Ministry</title>
-  <link rel="stylesheet" href="styles.css" />
-</head>
-<body>
-  <header>
-    <img src="logo.png" alt="The Cleaning Ministry Logo" style="max-height: 80px; margin-bottom: 1rem;" />
-    <h1>The Cleaning Ministry</h1>
-    <p>Faithfully Serving Homes with Excellence & Grace</p>
-    <nav>
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>The Cleaning Ministry</title>
+    <link rel="stylesheet" href="styles.css" />
+  </head>
+  <body>
+    <header>
+      <img
+        src="TheCleaningMinistry.png"
+        alt="The Cleaning Ministry Logo"
+        style="max-height: 300px; margin-bottom: 1rem"
+      />
+      <h1>The Cleaning Ministry</h1>
+      <p>Faithfully Serving Homes with Excellence & Grace</p>
+      <nav>
+        <ul>
+          <li><a href="#services">Services</a></li>
+          <li><a href="#about">About</a></li>
+          <li><a href="#faq">FAQ</a></li>
+          <li><a href="#schedule">Schedule</a></li>
+          <li><a href="#contact">Contact</a></li>
+        </ul>
+      </nav>
+    </header>
+
+    <section id="hero">
+      <h2>Professional Cleaning & Laundry Services You Can Believe In</h2>
+      <p>Book a one-time clean or set up recurring service today!</p>
+      <a href="#booking" class="cta-button">Book Now</a>
+    </section>
+
+    <section id="services">
+      <h2>Our Services</h2>
       <ul>
-        <li><a href="#services">Services</a></li>
-        <li><a href="#about">About</a></li>
-        <li><a href="#faq">FAQ</a></li>
-        <li><a href="#contact">Contact</a></li>
+        <li>
+          <strong>Basic Cleaning:</strong> Light cleans, dusting, vacuuming,
+          bathrooms, kitchens
+        </li>
+        <li>
+          <strong>Deep Cleaning:</strong> Baseboards, behind appliances, grime,
+          buildup & more
+        </li>
+        <li>
+          <strong>Move-In / Move-Out:</strong> Detailed cleaning to prep or
+          finish up your move
+        </li>
+        <li>
+          <strong>Our Church</strong> Detailed cleaning to prepare for services,
+          banquets, or weekly after service cleans.
+        </li>
+        <li><strong>Laundry Services:</strong> Wash, dry, fold & organize</li>
+        <li>
+          <strong>Pet-Friendly Cleans:</strong> Extra care and sanitation for
+          furry friends
+        </li>
       </ul>
-    </nav>
-  </header>
+    </section>
 
-  <section id="hero">
-    <h2>Professional Cleaning & Laundry Services You Can Believe In</h2>
-    <p>Book a one-time clean or set up recurring service today!</p>
-    <a href="#booking" class="cta-button">Book Now</a>
-  </section>
+    <section id="about">
+      <h2>About The Cleaning Ministry</h2>
+      <p>
+        The Cleaning Ministry is a faith-forward business built on integrity,
+        care, and excellence. We believe your home deserves more than a
+        wipe-down — it deserves to be refreshed, renewed, and respected.
+      </p>
+    </section>
 
-  <section id="services">
-    <h2>Our Services</h2>
-    <ul>
-      <li><strong>Basic Cleaning:</strong> Light cleans, dusting, vacuuming, bathrooms, kitchens</li>
-      <li><strong>Deep Cleaning:</strong> Baseboards, behind appliances, grime, buildup & more</li>
-      <li><strong>Move-In / Move-Out:</strong> Detailed cleaning to prep or finish up your move</li>
-      <li><strong>Laundry Services:</strong> Wash, dry, fold & organize</li>
-      <li><strong>Pet-Friendly Cleans:</strong> Extra care and sanitation for furry friends</li>
-    </ul>
-  </section>
+    <section id="faq">
+      <h2>Frequently Asked Questions</h2>
+      <ul>
+        <li>
+          <strong>Do you bring your own supplies?</strong><br />
+          Yes, we provide all the tools and supplies needed for the job.
+        </li>
+        <li>
+          <strong>Are your products safe for pets and kids?</strong><br />
+          Absolutely! We offer chemical-free, plant-based cleaning on request.
+        </li>
+        <li>
+          <strong>What areas do you service?</strong><br />
+          We’re based in Tucson, AZ and serve surrounding affluent
+          neighborhoods.
+        </li>
+        <li>
+          <strong>How do I reschedule?</strong><br />
+          You can reschedule or cancel your appointment via your booking
+          confirmation email.
+        </li>
+        <li>
+          <strong>Do you offer laundry-only services?</strong><br />
+          Yes! Wash, dry, fold, and organization available.
+        </li>
+      </ul>
+    </section>
 
-  <section id="about">
-    <h2>About The Cleaning Ministry</h2>
-    <p>Founded by Ms. Rhi, The Cleaning Ministry is a faith-forward business built on integrity, care, and excellence. We believe your home deserves more than a wipe-down — it deserves to be refreshed, renewed, and respected.</p>
-  </section>
+    <section id="contact">
+      <h2>Contact Us</h2>
+      <form action="#" method="post">
+        <label for="name">Name</label>
+        <input type="text" id="name" name="name" required />
 
-  <section id="faq">
-    <h2>Frequently Asked Questions</h2>
-    <ul>
-      <li><strong>Do you bring your own supplies?</strong><br> Yes, we provide all the tools and supplies needed for the job.</li>
-      <li><strong>Are your products safe for pets and kids?</strong><br> Absolutely! We offer chemical-free, plant-based cleaning on request.</li>
-      <li><strong>What areas do you service?</strong><br> We’re based in Tucson, AZ and serve surrounding affluent neighborhoods.</li>
-      <li><strong>How do I reschedule?</strong><br> You can reschedule or cancel your appointment via your booking confirmation email.</li>
-      <li><strong>Do you offer laundry-only services?</strong><br> Yes! Wash, dry, fold, and organization available.</li>
-    </ul>
-  </section>
+        <label for="email">Email</label>
+        <input type="email" id="email" name="email" required />
 
-  <section id="contact">
-    <h2>Contact Us</h2>
-    <form action="#" method="post">
-      <label for="name">Name</label>
-      <input type="text" id="name" name="name" required />
+        <label for="service">What type of cleaning do you need?</label>
+        <select id="service" name="service">
+          <option>Basic Clean</option>
+          <option>Deep Clean</option>
+          <option>Move-In / Move-Out</option>
+          <option>Laundry Service</option>
+        </select>
 
-      <label for="email">Email</label>
-      <input type="email" id="email" name="email" required />
+        <label for="message">Message</label>
+        <textarea id="message" name="message" rows="5"></textarea>
 
-      <label for="service">What type of cleaning do you need?</label>
-      <select id="service" name="service">
-        <option>Basic Clean</option>
-        <option>Deep Clean</option>
-        <option>Move-In / Move-Out</option>
-        <option>Laundry Service</option>
-      </select>
+        <button type="submit">Send Message</button>
+      </form>
+    </section>
 
-      <label for="message">Message</label>
-      <textarea id="message" name="message" rows="5"></textarea>
-
-      <button type="submit">Send Message</button>
-    </form>
-  </section>
-
-  <section id="booking">
-    <h2>Book a Cleaning</h2>
-    <p>Use the embedded form below to schedule your next service:</p>
-    <iframe src="https://calendly.com/thecleaningministry" width="100%" height="600" frameborder="0" scrolling="no"></iframe>
-  </section>
-
-  <footer>
-    <p>&copy; 2025 The Cleaning Ministry. All rights reserved.</p>
-  </footer>
-</body>
+    <footer>
+      <p>&copy; 2025 The Cleaning Ministry. All rights reserved.</p>
+    </footer>
+  </body>
 </html>
