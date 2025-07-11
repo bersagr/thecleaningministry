@@ -4,7 +4,7 @@
   --primary-color: #0064b2; /* azure blue*/
   --bg-color: #fdf8f2; /* cream/beige */
   --text-color: #333;
-  --header-bg: #fdf8f2; /* white */
+  --header-bg: #0064b2; /* dark azure */
 }
 
 * {
@@ -27,8 +27,8 @@ body {
 }
 
 header {
-  background-color: var(--header-bg);
-  color: #d4af37;
+  background-color: white;
+  color: #0064b2;
   text-align: center;
   padding: 2rem 1rem;
 }
@@ -37,16 +37,23 @@ nav ul {
   list-style: none;
   display: flex;
   justify-content: center;
+  align-items: center;
   flex-wrap: wrap;
   gap: 1.5rem;
   margin-top: 1rem;
+  padding: 0;
+  background-color: #0064b2;
 }
 
 nav a {
-  color: var(--text-color);
+  color: white; /* or var(--text-color) if your header bg is light */
   text-decoration: none;
   font-weight: bold;
+  padding: 0.5rem 1rem;
+  display: inline-block;
+  text-align: center;
 }
+
 
 #hero {
   text-align: center;
@@ -71,7 +78,8 @@ section {
 
 ul {
     padding-left: 15%;
-    background-color: #51b6e8;
+    background-color: #035582;
+    color: white;
 }
 
 h2 {
