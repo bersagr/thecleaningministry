@@ -88,6 +88,16 @@ h2 {
   text-align: center;
 }
 
+form {
+  background-color: #035582;
+  padding: 2rem;
+  border-radius: 8px;
+  box-shadow: 0 4px 12px rgba(0, 0, 0, 0.15);
+  color: white;
+  max-width: 600px;
+  margin: 2rem auto;
+}
+
 form label {
   display: block;
   margin-top: 1rem;
@@ -101,32 +111,29 @@ form select {
   margin-top: 0.25rem;
   border: 1px solid #ccc;
   background-color: white;
+  color: #000;
   border-radius: 4px;
 }
 
 form button {
   margin-top: 1rem;
-  background-color: white;
+  background-color: #0064b2;
   color: white;
   border: none;
   padding: 0.75rem 1.5rem;
   border-radius: 4px;
   font-weight: bold;
   cursor: pointer;
+  transition: background-color 0.3s ease;
 }
 
-footer {
-  text-align: center;
-  padding: 2rem 1rem;
-  background-color: var(--primary-color);
-  color: white;
-  margin-top: 2rem;
+form button:hover {
+  background-color: #e0e0e0;
 }
+
 
 @media (min-width: 768px) {
   body {
     padding: 0 3rem;
   }
 }
-
-
