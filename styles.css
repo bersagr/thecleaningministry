@@ -2,7 +2,7 @@
 
 :root {
   --primary-color: #0064b2; /* azure blue*/
-  --bg-color: #fdf8f2; /* cream/beige */
+  --bg-color: white; /* white */
   --text-color: #333;
   --header-bg: #0064b2; /* dark azure */
 }
@@ -131,9 +131,42 @@ form button:hover {
   background-color: #e0e0e0;
 }
 
+.form-container {
+  display: flex;
+  gap: 2rem;
+  flex-wrap: wrap;
+  justify-content: center;
+  align-items: flex-start;
+}
+
+.form-container form {
+  background-color: #0064b2;
+  padding: 2rem;
+  border-radius: 8px;
+  box-shadow: 0 4px 12px rgba(0, 0, 0, 0.15);
+  color: white;
+  max-width: 600px;
+  flex: 1;
+}
+
+.form-side-image {
+  max-width: 400px;
+  width: 100%;
+  height: auto;
+  border-radius: 8px;
+  box-shadow: 0 4px 12px rgba(0, 0, 0, 0.1);
+}
+
+#footer, p {
+    background-color: #0064b2;
+    color: white;
+    text-align: center;
+}
 
 @media (min-width: 768px) {
   body {
     padding: 0 3rem;
   }
 }
+
+
